@@ -1,0 +1,128 @@
+#contact{
+    background-image: url(Namir3.jpg);
+    background-position: left -400px;
+    background-size: cover;
+    filter: hue-rotate(350deg);
+    width: 100vw;
+    height: 1300px;
+    display: flex;
+    flex-direction: column;
+}
+.mycontact{
+    border: 1px solid rgb(0, 0, 0);
+    width: 250px;
+    height: 70px;
+    align-self: center;
+    margin-top: 40px;
+}
+.h2_contact{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.glavni_info{
+  display: flex;
+  justify-content: center;
+  display: flex;
+}
+.informacije{
+    display: flex;
+    align-self: center;
+    margin-top: 80px;
+}
+.box_info{
+    margin-right: 100px;
+}
+.h1_info{
+    font-size: 29px;
+}
+.info{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.815);
+    font-size: 21px;
+}
+.veze{
+    display: flex;
+}
+.lijevi_info{
+    width: 350px;
+    margin-top: 200px;
+}
+.h1_podnaslov{
+    font-size: 40px;
+}
+.img2{
+    border-radius: 65%;
+    width: 50px;
+    height: 50px;    
+}
+.ig2{
+    border-radius: 65%;
+    font-size: 30px;
+    margin-top: 10px;
+}
+  .desni_info{
+    margin-top: 120px;
+  }
+
+
+  .container {
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-header {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #000; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .form-group textarea {
+    resize: vertical;
+  }
+  .fixed-nav-button {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    width: 55px;
+    height: 55px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(184, 100, 31);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    opacity: 0;
+  }
+  .fixed-nav-button-icon {
+    width: 70%;
+  }
+  .fixed-nav-button:hover {
+    margin-bottom: 3px;
+  }

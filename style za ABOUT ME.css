@@ -1,0 +1,146 @@
+* {
+    max-width: 99vw;
+}
+
+#about_me{
+    display: flex;
+    flex-direction: column;
+}
+.about{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 105px;
+    margin-bottom: 50px;
+}
+.slika .Namirimg{
+    max-width: 50vw;
+    width: 40vw;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+}
+.grupa_about{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    display: flex;
+}
+.about-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pored_slike{
+    width: 50%;
+    margin-left: 25px;
+}
+.h7_box{
+    border: 1px solid white;
+}
+.h7{
+    margin-top: 25px;
+    color: white;
+    font-size: 29px;
+    text-align: center;
+}
+.p7{
+    color: rgba(122, 122, 122, 0.774);
+    font-size: 18px;
+}
+.kratke_inf{
+    display: flex;
+    gap: 10px; 
+}
+.name{
+    color: rgb(211, 84, 0);
+    font-size: 22px;
+}
+.ime{
+    color: white;
+    font-size: 22px;
+}
+.phone{
+    color: rgb(211, 84, 0);
+    font-size: 22px;
+}
+.broj{
+    color: white;
+    font-size: 22px;
+}
+.email{
+    color: rgb(211, 84, 0);
+    font-size: 22px;
+}
+.gmail{
+    color: white;
+    font-size: 22px;
+}
+.instagram{
+    color: rgb(211, 84, 0);
+    font-size: 22px;
+}
+.ig{
+    color: white;
+    font-size: 22px;
+}
+
+.puljke{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 30px;
+}
+.prva_puljka{
+    background-color: rgb(211, 84, 0);
+    border: 1px solid rgb(211, 84, 0);
+    height: 60px;
+}
+.p_prva{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.druga_puljka{
+    border: 1px solid rgb(211, 84, 0);
+    height: 60px;
+}
+.p_druga{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.a_puljka1{
+    color: rgb(211, 84, 0);
+}
+.a_puljka2{
+    color: rgb(3, 0, 18);
+}
+.ispod_abouta{
+    background-image: url(slika\ ispod\ abouta.jpg);
+    filter: brightness(65%);
+    display: block;
+    height: 150px;
+    margin-top: 250px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.p_abouta{
+    color: rgb(218, 218, 218);
+    background-color: rgba(95, 95, 95, 0.527);
+    font-size: 40px;
+    text-align: center;
+}
+.boz{
+    border: 1px solid rgb(211, 84, 0);
+    background-color: rgb(211, 84, 0);
+}
+.p_boz{
+    color: white;
+    text-align: center;
+}
+.a_boz{
+    color: rgb(211, 84, 0);
+}

@@ -1,0 +1,97 @@
+* {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(3, 0, 18);
+    padding: 0px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    transition: background-color 0.3s ease;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.box5{
+    margin: 0 10px;
+    color: rgba(0, 0, 0, 0.418);
+}
+.box5:hover{
+    color: black;
+}
+.box{
+    margin: 0 10px;
+    color: rgba(0, 0, 0, 0.418);
+}
+.box:hover{
+    color: black;
+}
+.box1{
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-image: url(Namir3.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+.conteiner{
+    color: white;
+    margin-top: 360px;
+    display: flex;
+    flex-direction: column;
+
+}
+.mreza{
+    display: flex;
+    gap: 50px;
+    height: 5px;
+}
+.img1{
+    border-radius: 65%;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+}
+.naslov{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.zanimanje{
+    width: 310px;
+    border-radius: 2%;
+    border: solid 3px white;
+    text-align: center;
+    font-size: 25px;
+}
+.klik{
+    margin-top: 200px;
+}
+.img{
+    border-radius: 65%;
+    background-color: rgb(184, 100, 31);
+    padding: 0px;
+    margin: 0px;
+    width: 70px;
+    height: 70px;
+    font-size: 50px;
+}
